@@ -45,9 +45,9 @@ public class Program {
 		System.out.println();
 		System.out.println("FATURA: ");
 		
-		System.out.printf("Pagemento Básico: " + String.format("%.2f%n"), cr.getInvoice().getBasicPayment());
-		System.out.printf("Imposto: " + String.format("%.2f%n"), cr.getInvoice().getTax());
-		System.out.printf("Pagamento Total: " + String.format("%.2f%n"), cr.getInvoice().getTotalPayment());
+		System.out.printf("Pagamento Básico: %.2f%n", cr.getInvoice().getBasicPayment());
+		System.out.printf("Imposto: %.2f%n", cr.getInvoice().getTax());
+		System.out.printf("Pagamento Total: %.2f%n", cr.getInvoice().getTotalPayment());
 		
 		sc.close();
 
